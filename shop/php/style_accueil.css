@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    padding-top: 70px;
+    width: 80%;
+    margin: auto;
+    background-color:  #1a1a1a; 
+    text-align: center;
+    color: white;
+}
+
+.haut {
+    width: 80%;
+    margin: auto;
+    background-color:#1a1a1a;
+    padding: 6%;
+}
+
+.produita {
+    width: 100%;
+    height: 600px;
+    margin: auto;    
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.produita a {
+    transition: 300ms;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.produita a:hover {
+    transition: 600ms;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+}
+
+.machine {
+    width: 30%;
+    height: 600px;
+    background-color: #e0e0eb;   
+    color: black; 
+}
+
+.titremachine {
+    width: 100%;
+    height: 20px;
+}
+
+.meilleurevente {
+    border-bottom: 1px solid black;
+    width: 100%;
+    height: 290px;
+}
+
+.meilleurevente img {
+    transition: 400ms;
+    width: 48%;
+}
+
+.meilleurevente img:hover {
+    transition: 500ms;
+    width: 50%;
+}
+
+.meilleureventecontenu {
+    width: 100%;;
+    height: 260px;
+}
+
+.meilleurventesavoir {
+    width: 100%;
+    height: 30px;
+
+}
+
+.autre {
+    width: 100%;
+    height: 290px;
+}
+.titreautre {
+    width: 100%;
+    height: 30px;
+}
+
+.imagedroite {
+    width: 50%;
+    height: 210px;
+    padding-top: 10px;
+}
+
+.imagedroite img {  
+    transition: 300ms;
+    width: 95%;
+}
+
+.imagedroite img:hover {
+    transition: 500ms;
+    width: 100%;
+}
+
+.imagegauche {
+    width: 50%;
+    height: 210px;
+    border-right: 1px solid black;
+}
+
+.imagegauche img {
+    transition: 300ms;    
+    width: 95%;
+}
+
+.imagegauche img:hover {
+    transition: 500ms;
+    width: 100%;
+}
+
+.imageautre {
+    width: 100%;
+    height: 210px;
+    display: flex;
+}
+
+
+.savoirautre {
+    width: 100%;
+    height: 50px;
+}
+
+.poid {
+    padding: 1%;
+    width: 30%;
+    background-color: #d0d0e1;
+    color: black;    
+}
+
+.poidcontenu {
+    padding: 2%;
+    margin-top: 40px;
+}
+
+.poidcontenu img {
+    width: 50%;
+}
+
+.poidimage {
+    margin-top: 20px;
+}
+
+.complements {
+    padding: 1%;
+    width: 40%;
+    background-color: #e0e0eb;  
+    color: black;  
+}
+
+.complements img {
+    width: 100%;
+}
+
+.complementcontenu {
+    margin-top: 70px;
+}
+
+
+.quia {
+    width: 50%;
+    background-color: black;
+    height: 500px;
+    border-right: 1px solid white;
+}
+
+.quicontenu {
+    display: flex;
+}
+
+.titrequi {
+    margin-top: 20px ;
+}
+
+.quigauche {
+    margin-top: 20px;
+    width: 50%;
+    border-right: 1px solid white;
+}
+
+.quiequipe {
+    border-bottom: 1px dashed white;
+    height: 240px;
+    padding: 1%;
+}
+
+.quiequipe img {
+    transition: 800ms;
+    width: 80%;
+}
+
+.quiequipe img:hover {
+    transition: 800ms;
+    width: 85%;
+}
+
+.quiobjectif {    
+    height: 190px;    
+}
+
+.quiobjectif img {
+    transition: 800ms;
+    width: 80%;
+}
+
+.quiobjectif img:hover {
+    transition: 800ms;
+    width: 85%;
+}
+
+.quidroite {
+    width: 50%;
+    margin-top: 20px;
+    height: 400px;
+}
+
+.quidroite a {
+    color: grey;
+    text-decoration: none;
+}
+
+.quidroite img {
+    transition: 800ms;
+    width: 80%;
+}
+
+.quidroite img:hover {
+    transition: 800ms;
+    width: 85%;
+}
+
+.imagequidroite {
+    height: 200px;
+}
+
+.textequidroite {
+    height: 200px;
+}
+
+
+.ou {
+    width: 50%;
+    margin-right: 0% ;
+    height: 500px;
+}
+
+.titreou {
+    margin-top: 20px;
+}
+
+.quiou {
+    display: flex;
+}
+
+.fabrique {
+    width: 100%;
+    background-color: #e0e0eb;
+    height: 600px;
+    color: black;
+}
+
+.titrefabriquer {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.contenufabriquer {
+    display: flex;
+}
+
+.fabrique a {
+    text-decoration: none;
+    color: black;
+}
+
+.contenugauche {
+    width: 50%;
+    margin-left: 0%;
+    border-right: 1px solid black;    
+}
+
+.contenugauche img {
+    transition: 300ms;
+    width: 70%;
+}
+
+.contenugauche img:hover {
+    transition: 500ms;
+    width: 72%;
+}
+
+.contenudroite {
+    transition: 500ms;
+    margin-right: 0%;
+    width: 50%;
+}
+
+.contenudroite img {
+    transition: 300ms;
+    width: 70%;
+}
+
+.contenudroite img:hover {
+    transition: 500ms;
+    width: 72%;
+}
+
+.contact {
+    width: 100%;
+    height: 500px ;
+}
+
+.titrecontact{
+    width: 100%;
+    height: 30px;
+}
+
+.contenucontact{
+    width: 100%;
+    height: 440px;
+    display: flex;
+}
+
+.contenugauche {
+    width: 60%;
+    height: 440px;
+    border-right: 1px solid white;
+}
+
+.contenudroite {
+    width: 40px;
+    height: 440px;
+}

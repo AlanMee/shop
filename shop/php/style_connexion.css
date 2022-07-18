@@ -1,0 +1,35 @@
+.connexion {
+    width: 50%;
+    height: 460px;
+    margin-top: 250px ;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    border: solid;
+    border-width: 2px 4px;
+    border-radius: 40px;
+    background-color: #e0e0eb;
+}
+
+.formulaire img {
+    width: 20%;
+}
+
+.formulaire a {
+    transition: 400ms;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.formulaire a:hover {
+    transition: 500ms;
+    font-size: 22px ;
+}
+
+.erreur {
+    color: red;
+}
+
+
